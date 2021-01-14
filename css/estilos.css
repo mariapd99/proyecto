@@ -1,0 +1,44 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+.nav a{
+	background-color: #B0EBF9;
+	color: #FFFFFF;
+}
+
+
+
+#IESSANISIDRO{
+	display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: #000000;
+    padding-top:5px;
+}
+
+.activo{
+	color:black !important;
+}
+
+#IESSANISIDRO a{
+    color: #000000;
+}
+
+#persona{
+	display: inline-block;
+    text-align: right;
+}
+
+
+hr {
+	border-color:grey;
+}
+
+
+
+#madrid{
+	display: inline-block;
+    text-align: center;
+}
