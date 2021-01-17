@@ -36,9 +36,6 @@ hr {
 	border-color:grey;
 }
 
-
-
-#madrid{
-	display: inline-block;
-    text-align: center;
+#cont, #educamadrid , #madrid{
+	text-align: center;
 }

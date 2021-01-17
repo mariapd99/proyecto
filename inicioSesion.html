@@ -25,31 +25,34 @@
             
             <br/>
             <div class="row">
-                <div class="col-md-5 col-0"></div>
-                <div class="col-md-2 col-12">
+                <div class="col-md-4 col-0"></div>
+                <div class="col-md-4 col-12" id="centrar">
                     <p id="titulo">INICIAR SESI&Oacute;N</p>
                     <div id="gSignInWrapper">
-                        <button class="btn btn-primary btn-block" id="customBtn">
+                        <button class="btn" id="customBtn">
                             <img src="https://img.icons8.com/fluent/48/000000/google-logo.png" height="32" width="32"/>
                             <span class="buttonText">Entrar con Google</span>
                         </button>
                     </div>
                     <hr>
-                    <form action="/action_page.php" method="get">
-                        <input type="email" id="email" name="email" placeholder="E-mail"><br>
-                        <input type="password" id="password" name="password" placeholder="Contrase&ntilde;a"><br>
-                        <a href="">He olvidado mi contrase&ntilde;a</a><br>
-                        <input type="submit" value="Iniciar sesi&oacute;n">
-                      </form>
+                    <div id="form">
+                        <form action="/action_page.php" method="get">
+                            <input type="email" id="email" name="email" placeholder="E-mail"><br><br>
+                            <input type="password" id="password" name="password" placeholder="Contrase&ntilde;a"><br><br>
+                            <a href="">He olvidado mi contrase&ntilde;a</a><br><br>
+                            <input type="submit" class="btn btn-warning" id="submit" value="Iniciar sesi&oacute;n">
+                        </form>
+                    </div>
+                    
                 </div>
-                <div class="col-md-5 col-0"></div>
+                <div class="col-md-4 col-0"></div>
             </div>
             
             <br/>
             
             <hr>
             <div class="row">
-                <div class="col-md-4 col-12">
+                <div class="col-md-4 col-12" id="educamadrid">
                     EducaMadrid - 2020 - Consejer&iacute;a de Educaci&oacute;n y Juventud
                 </div>
                 <div class="col-md-4 col-12" id="cont">
