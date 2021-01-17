@@ -33,3 +33,11 @@ span.buttonText {
   color: white;
   background-color: orange;
 }
+
+#olvidado {
+  text-align: justify;
+}
+
+#olvidado a {
+  color: #000000;
+}

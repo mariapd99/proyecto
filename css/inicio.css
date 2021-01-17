@@ -1,11 +1,3 @@
-.caja{
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-
 .box img{
   width: 100%;
   height: auto;
@@ -21,4 +13,9 @@
 
 #texto{
   text-align: left;
+}
+
+#texto a{
+  text-decoration:none;
+  color: #02a8d1;
 }
