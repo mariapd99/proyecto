@@ -1,3 +1,13 @@
 #horario {
     text-align: center;
 }
+
+#tabla {
+    overflow-x:scroll;
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+}
