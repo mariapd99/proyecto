@@ -8,7 +8,17 @@
 	color: #FFFFFF;
 }
 
+.centrar {
+	text-align: center;
+}
 
+.justificar {
+	text-align: justify;
+}
+
+.izq {
+	text-align: left;
+  }
 
 #IESSANISIDRO{
 	display: inline-block;
@@ -38,11 +48,18 @@
 	background-color: #c3c3c3;
 }
 
-
 hr {
 	border-color:grey;
 }
 
-#cont, #educamadrid , #madrid{
-	text-align: center;
+.ancho {
+	width: 100%;
+}
+
+.gris {
+    color: #cdcdcd;
+}
+
+.negro {
+	color: #000000;
 }

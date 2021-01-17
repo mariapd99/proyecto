@@ -21,23 +21,7 @@ span.buttonText {
   font-family: 'Roboto', sans-serif;
 }
 
-#titulo, #centrar{
-  text-align: center;
-}
-
-#email, #password, #submit {
-  width: 100%;
-}
-
 #submit {
   color: white;
   background-color: orange;
-}
-
-#olvidado {
-  text-align: justify;
-}
-
-#olvidado a {
-  color: #000000;
 }
