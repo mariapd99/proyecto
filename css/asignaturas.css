@@ -1,0 +1,11 @@
+#asigs {
+    text-align: center;
+}
+
+#asigs button, .btn-asig {
+    background: white !important;
+    color: #444 !important;
+    border-radius: 5px !important;
+    border: thin solid #888 !important;
+    width: 100% !important;
+}
