@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ubicacion</title>
+		
+		<link rel="stylesheet" href="css/estilos.css"/>
+		<link rel="stylesheet" href="css/inicio.css"/>
+		<link rel="stylesheet" href="fonts.css"/>
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" crossorigin="anonymous"/>
+		<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>		
+        
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	</head>
+	<body>
+
+		<div class="container-fluid">
+			<div class="row">
+<!-- BARRA SUPERIOR -->							
+				<div class="col-4"></div>
+				<div class="col-4" id="IESSANISIDRO"><a href="inicio.html">IES SAN ISIDRO</a></div>
+				<div class="col-4" id="persona"><a href="inicioSesion.html"><img src="imgs/persona.png" height="38" width="38"></a></div>
+			</div>
+			
+			<ul class="nav nav-justified">
+			<li class="nav-item">
+				<a class="nav-link activo" aria-current="page" href="inicio.html">Noticias</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="normativa.html">Normativa</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="ubicacion.html">Ubicaci&oacute;n</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contacto.html">Contacto</a>
+			</li>
+			</ul>
+            <br/>
+<!-- CONTENIDO -->
+         <div class="row">
+               <div class="col-12 centrar" id="asigs">
+                  <p id="titulo">UBICACION</p>
+            </div>
+         </div>
+
+			<div class="row centrar">
+                <div class="col-md-2 col-12 centrar"></div>
+                <div class="col-md-8 col-12 centrar">
+                <div id="mapid">
+                    <div class="openStreetMap leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" style="width: 100%; height: 450px; position: relative;" id="openStreetMap0" tabindex="0">
+                        <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(-71px, 0px, 0px);">
+                           <div class="leaflet-pane leaflet-tile-pane">
+                              <div class="leaflet-layer " style="z-index: 1; opacity: 1;">
+                                 <div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" role="presentation" src="https://a.tile.openstreetmap.org/18/128372/98848.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(301px, 11px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://c.tile.openstreetmap.org/18/128372/98847.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(301px, -245px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://c.tile.openstreetmap.org/18/128371/98848.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(45px, 11px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://b.tile.openstreetmap.org/18/128373/98848.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(557px, 11px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://b.tile.openstreetmap.org/18/128372/98849.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(301px, 267px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://b.tile.openstreetmap.org/18/128371/98847.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(45px, -245px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://a.tile.openstreetmap.org/18/128373/98847.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(557px, -245px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://a.tile.openstreetmap.org/18/128371/98849.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(45px, 267px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://c.tile.openstreetmap.org/18/128373/98849.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(557px, 267px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://b.tile.openstreetmap.org/18/128370/98848.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-211px, 11px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://c.tile.openstreetmap.org/18/128374/98848.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(813px, 11px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://a.tile.openstreetmap.org/18/128370/98847.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-211px, -245px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://b.tile.openstreetmap.org/18/128374/98847.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(813px, -245px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://c.tile.openstreetmap.org/18/128370/98849.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-211px, 267px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://a.tile.openstreetmap.org/18/128374/98849.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(813px, 267px, 0px); opacity: 1;"></div>
+                              </div>
+                           </div>
+                           <div class="leaflet-pane leaflet-shadow-pane"><img src="https://www.educa2.madrid.org/cms_tools/images/leaflet/marker-shadow.png" class="leaflet-marker-shadow leaflet-zoom-animated" alt="" style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; transform: translate3d(440px, 225px, 0px);"></div>
+                           <div class="leaflet-pane leaflet-overlay-pane"></div>
+                           <div class="leaflet-pane leaflet-marker-pane"><img src="https://www.educa2.madrid.org/cms_tools/images/leaflet/marker-icon-2x.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(440px, 225px, 0px); z-index: 225;"></div>
+                           <div class="leaflet-pane leaflet-tooltip-pane"></div>
+                           <div class="leaflet-pane leaflet-popup-pane">
+                              <div class="leaflet-popup  leaflet-zoom-animated" style="opacity: 1; transform: translate3d(441px, 191px, 0px); bottom: -7px; left: -59px;">
+                                 <div class="leaflet-popup-content-wrapper">
+                                    <div class="leaflet-popup-content" style="width: 78px;">IES San Isidro</div>
+                                 </div>
+                                 <div class="leaflet-popup-tip-container">
+                                    <div class="leaflet-popup-tip"></div>
+                                 </div>
+                                 <a class="leaflet-popup-close-button" href="#close">×</a>
+                              </div>
+                           </div>
+                           <div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(3.28634e+07px, 2.53053e+07px, 0px) scale(131072);"></div>
+                        </div>
+                        <div class="leaflet-control-container">
+                           <div class="leaflet-top leaflet-left">
+                              <div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in leaflet-disabled" href="#" title="" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="#" title="" role="button" aria-label="Zoom out">−</a></div>
+                           </div>
+                           <div class="leaflet-top leaflet-right"></div>
+                           <div class="leaflet-bottom leaflet-left"></div>
+                           <div class="leaflet-bottom leaflet-right">
+                              <div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com" title="">Leaflet</a> | © <a target="_blank" href="https://www.openstreetmap.org/copyright">Colaboradores de OpenStreetMap</a> | <a href="https://www.openstreetmap.org/#map=18/40.41262232475312/-3.707140189124474" target="_blank">Abrir mapa</a></div>
+                           </div>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+                    <div class="col-md-2 col-12 centrar"></div>
+            </div>
+         
+           
+        
+			<br/>
+			
+            <hr>
+<!-- BARRA INFERIOR -->            
+			<div class="row">
+				<div class="col-md-4 col-12 centrar" id="educamadrid">
+					EducaMadrid - 2020 - Consejer&iacute;a de Educaci&oacute;n y Juventud
+				</div>
+				<div class="col-md-4 col-12 centrar" id="cont">
+					<span class="icon-phone"></span>  Tfno: 913651271
+					<br/>
+					<span class="icon-envelop"></span>  e-mail: <a href="mailto:ies.sanisidro.madrid@educa.madrid.org">ies.sanisidro.madrid@educa.madrid.org</a>
+				</div>
+				
+				<div class="col-md-4 col-12 centrar" id="madrid">
+					<img src="imgs/madrid1.png">
+					<img src="imgs/madrid2.png">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
