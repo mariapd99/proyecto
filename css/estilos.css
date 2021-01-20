@@ -35,6 +35,7 @@
 #IESSANISIDRO a{
 	color: #000000;
 	text-decoration:none;
+	font-weight: bold;
 }
 
 #persona{
@@ -70,7 +71,7 @@ hr {
 
 .google-maps {
 	position: relative;
-	padding-bottom: 75%; // This is the aspect ratio
+	padding-bottom: 75%;
 	height: 0;
 	overflow: hidden;
 }
@@ -82,3 +83,8 @@ hr {
 	width: 100% !important;
 	height: 100% !important;
 }
+
+/*#fotopuerta {
+	margin-left: 40px;
+	margin-right: 40px;
+}*/

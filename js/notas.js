@@ -8,8 +8,7 @@ $(document).ready(function() {
         },
         dataType: "json",
         success: function(listaNotas) {
-            $.each(listaNotas, function(index, nota){
-                console.log(listaNotas);
+            $.each(listaNotas.asignaturas, function(index, nota){
                 var notaHTML = "<div><p><strong>"+nota.acronimo+"</strong></p><p>Nota final: "+nota.nota+"</p></div>";
                 $("#notas").append(notaHTML);
             })
